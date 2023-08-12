@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JINJU SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <div id="logo">
+        <a href="index.html">
+          <h1>JINJU SHOP</h1>
+        </a>
+      </div> 
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#">OUTER <span>▼</span></a>
+            <ul>
+              <li><a href="#">코트/자켓</a></li>
+              <li><a href="#">점퍼/집업</a></li>
+              <li><a href="#">패딩/야상</a></li>
+              <li><a href="#">가디건</a></li>
+              <li><a href="#">블레이저</a></li>  
+            </ul>
+          </li>
+          <li><a href="#">TOP <span>▼</span></a>
+            <ul>
+              <li><a href="#">니트/가디건</a></li>
+              <li><a href="#">셔츠/블라우스</a></li>
+              <li><a href="#">맨투맨/후드</a></li>
+              <li><a href="#">티셔츠</a></li>  
+            </ul>
+          </li>
+          <li><a href="#">BOTTOM <span>▼</span></a>
+            <ul>
+              <li><a href="#">스커트</a></li>
+              <li><a href="#">데님바지</a></li>
+              <li><a href="#">슬랙스</a></li>
+              <li><a href="#">면바지</a></li>
+              <li><a href="#">트레이닝 팬츠</a></li>
+            </ul>
+          </li>
+          <li><a href="#">DRESS <span>▼</span></a>
+            <ul>
+              <li><a href="#">미니</a></li>
+              <li><a href="#">미디/롱</a></li>
+              <li><a href="#">투피스</a></li>
+            </ul>
+          </li> 
+        </ul>
+      </nav> 
+    </header>
+    <div id="slideShow">
+      <div id="slides">
+        <img src="images/img-9.PNG" alt="">
+        <img src="images/img-4.PNG" alt="">
+        <button id="prev">&lang;</button>
+        <button id="next">&rang;</button>
+      </div>  
+    </div>
+    <div id="contents">
+      <div id="tabMenu">
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">공지사항</label>
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">NEW상품</label>
+
+        <div id="notice" class="tabContent">
+          <h2>공지사항 내용입니다.</h2>
+          <ul>
+            <li>배송 지연 안내</li>
+            <li>[서울 지역] 3일 지연이 되었습니다.</li>
+            <li>[경기도 지역] 하루 지연이 되었습니다.</li>
+            <li>환불 안내</li>
+            <li>교환 안내</li>
+          </ul>
+        </div>
+        <div id="gallery" class="tabContent">
+          <h2>NEW상품 내용입니다.</h2>
+          <ul>
+            <li><img src="images/img-6.PNG"></li>
+            <li><img src="images/img-8.PNG"></li>
+            <li><img src="images/img-7.PNG"></li>
+          </ul>
+        </div>
+      </div>
+      <div id="links">
+        <ul>
+          <li>
+            <a href="#">
+              <span id="quick-icon1"></span>
+              <p>BEST1▲</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span id="quick-icon2"></span>
+              <p>BEST2▲</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span id="quick-icon3"></span>
+              <p>BEST3▲</p>
+            </a>
+          </li>
+        </ul>
+      </div>  
+    </div>
+    <footer>
+    <div id="bottomMenu">
+      <ul>
+        <li><a href="#">상호명:JINJU SHOP</a></li>
+        <li><a href="#">사업자등록번호:111-2222</a></li>
+        <li><a href="#">대표자:이혜진</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#"></a></li>
+      </ul>
+      <div id="sns">
+        <ul>
+          <li><a href="#"><img src="images/sns-1.png"></a></li>
+          <li><a href="#"><img src="images/sns-2.png"></a></li>
+          <li><a href="#"><img src="images/sns-3.png"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="company">
+      <p>서울특별시 송파구 송파동 1234 (대표전화) 123-456-790</p>
+    </div>
+    </footer>
+  </div>
+
+ <script src="js/slideshow.js"></script>
+</body>
+</html>
